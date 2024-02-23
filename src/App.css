@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+.App{
+  background: #F2D8D8;
+  width: 65%;
+  border: 1px solid green;
+  padding: 15px;
+  margin-left: 15%;
+  margin-top:7%;
+  margin-bottom:7%;
+
+}
+
+ul {
+  margin: 0;
+  padding: 12px 8px 12px 40px;;
+}
+
+
+.header {
+  background-color: #374259;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#MyInput {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 65%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  margin-left: 5px;
+  padding: 6px;
+  width: 25%;
+  background: #F8F6F4;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #E3F4F4;
+}
+
+.Btn{
+  margin:0.5rem;
+  padding: 3px;
+  width: 150px;
+}
+
+.divbtn{
+  justify-content: right;
+  display: grid;
+}
